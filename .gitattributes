@@ -7,3 +7,4 @@ data/presupuesto_mexico__2013.csv filter=lfs diff=lfs merge=lfs -text
 data/presupuesto_mexico__2014.csv filter=lfs diff=lfs merge=lfs -text
 data/presupuesto_mexico__2015.csv filter=lfs diff=lfs merge=lfs -text
 data/presupuesto_mexico__2016.csv filter=lfs diff=lfs merge=lfs -text
+data/presupuesto_mexico__2017.csv filter=lfs diff=lfs merge=lfs -text
