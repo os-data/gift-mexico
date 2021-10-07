@@ -7011,6 +7011,2342 @@
           }
         }
       }
+    },
+    {
+      "bytes": 79599747,
+      "hash": "81c53f8e9cebf0c8c675c711ff62654205fbd3157aed2ded236fee80f5001ae9",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "CICLO",
+            "name": "CICLO",
+            "slug": "CICLO",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "DESC_AI",
+            "name": "DESC_AI",
+            "slug": "DESC_AI",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level4:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_CAPITULO",
+            "name": "DESC_CAPITULO",
+            "slug": "DESC_CAPITULO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_CONCEPTO",
+            "name": "DESC_CONCEPTO",
+            "slug": "DESC_CONCEPTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_FF",
+            "name": "DESC_FF",
+            "slug": "DESC_FF",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "DESC_FUNCION",
+            "name": "DESC_FUNCION",
+            "slug": "DESC_FUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_GPO_FUNCIONAL",
+            "name": "DESC_GPO_FUNCIONAL",
+            "slug": "DESC_GPO_FUNCIONAL",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_MODALIDAD",
+            "name": "DESC_MODALIDAD",
+            "slug": "DESC_MODALIDAD",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "DESC_PARTIDA_ESPECIFICA",
+            "name": "DESC_PARTIDA_ESPECIFICA",
+            "slug": "DESC_PARTIDA_ESPECIFICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_PARTIDA_GENERICA",
+            "name": "DESC_PARTIDA_GENERICA",
+            "slug": "DESC_PARTIDA_GENERICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_PP",
+            "name": "DESC_PP",
+            "slug": "DESC_PP",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:project:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "DESC_RAMO",
+            "name": "DESC_RAMO",
+            "slug": "DESC_RAMO",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_SUBFUNCION",
+            "name": "DESC_SUBFUNCION",
+            "slug": "DESC_SUBFUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level3:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_TIPOGASTO",
+            "name": "DESC_TIPOGASTO",
+            "slug": "DESC_TIPOGASTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:label",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "DESC_UR",
+            "name": "DESC_UR",
+            "slug": "DESC_UR",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "ENTIDAD_FEDERATIVA",
+            "name": "ENTIDAD_FEDERATIVA",
+            "slug": "ENTIDAD_FEDERATIVA",
+            "type": "string",
+            "format": "default",
+            "columnType": "geo-source:target:title",
+            "conceptType": "geo-source",
+            "options": []
+          },
+          {
+            "title": "GPO_FUNCIONAL",
+            "name": "GPO_FUNCIONAL",
+            "slug": "GPO_FUNCIONAL",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_AI",
+            "name": "ID_AI",
+            "slug": "ID_AI",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level4:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_CAPITULO",
+            "name": "ID_CAPITULO",
+            "slug": "ID_CAPITULO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_CLAVE_CARTERA",
+            "name": "ID_CLAVE_CARTERA",
+            "slug": "ID_CLAVE_CARTERA",
+            "type": "string",
+            "format": "default",
+            "columnType": "budget-line-id",
+            "conceptType": "budget-line-id",
+            "options": []
+          },
+          {
+            "title": "ID_CONCEPTO",
+            "name": "ID_CONCEPTO",
+            "slug": "ID_CONCEPTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_ENTIDAD_FEDERATIVA",
+            "name": "ID_ENTIDAD_FEDERATIVA",
+            "slug": "ID_ENTIDAD_FEDERATIVA",
+            "type": "string",
+            "format": "default",
+            "columnType": "geo-source:target:code",
+            "conceptType": "geo-source",
+            "options": []
+          },
+          {
+            "title": "ID_FF",
+            "name": "ID_FF",
+            "slug": "ID_FF",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "ID_FUNCION",
+            "name": "ID_FUNCION",
+            "slug": "ID_FUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_MODALIDAD",
+            "name": "ID_MODALIDAD",
+            "slug": "ID_MODALIDAD",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "ID_PARTIDA_ESPECIFICA",
+            "name": "ID_PARTIDA_ESPECIFICA",
+            "slug": "ID_PARTIDA_ESPECIFICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_PARTIDA_GENERICA",
+            "name": "ID_PARTIDA_GENERICA",
+            "slug": "ID_PARTIDA_GENERICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_PP",
+            "name": "ID_PP",
+            "slug": "ID_PP",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "ID_RAMO",
+            "name": "ID_RAMO",
+            "slug": "ID_RAMO",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "ID_SUBFUNCION",
+            "name": "ID_SUBFUNCION",
+            "slug": "ID_SUBFUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level3:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_TIPOGASTO",
+            "name": "ID_TIPOGASTO",
+            "slug": "ID_TIPOGASTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:code",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "ID_UR",
+            "name": "ID_UR",
+            "slug": "ID_UR",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "MONTO_ADEFAS",
+            "name": "MONTO_ADEFAS",
+            "slug": "MONTO_ADEFAS",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_APROBADO",
+            "name": "MONTO_APROBADO",
+            "slug": "MONTO_APROBADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_DEVENGADO",
+            "name": "MONTO_DEVENGADO",
+            "slug": "MONTO_DEVENGADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_EJERCICIO",
+            "name": "MONTO_EJERCICIO",
+            "slug": "MONTO_EJERCICIO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_EJERCIDO",
+            "name": "MONTO_EJERCIDO",
+            "slug": "MONTO_EJERCIDO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_MODIFICADO",
+            "name": "MONTO_MODIFICADO",
+            "slug": "MONTO_MODIFICADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_PAGADO",
+            "name": "MONTO_PAGADO",
+            "slug": "MONTO_PAGADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "presupuesto_mexico__2011.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/presupuesto_mexico__2011.csv",
+      "hashcopy": "fafb84d9b623a51a55e0a60b830cb6b2761ad5b947351c1e0affa87d359ab816",
+      "sample": [
+        [
+          "CICLO",
+          "DESC_AI",
+          "DESC_CAPITULO",
+          "DESC_CONCEPTO",
+          "DESC_FF",
+          "DESC_FUNCION",
+          "DESC_GPO_FUNCIONAL",
+          "DESC_MODALIDAD",
+          "DESC_PARTIDA_ESPECIFICA",
+          "DESC_PARTIDA_GENERICA",
+          "DESC_PP",
+          "DESC_RAMO",
+          "DESC_SUBFUNCION",
+          "DESC_TIPOGASTO",
+          "DESC_UR",
+          "ENTIDAD_FEDERATIVA",
+          "GPO_FUNCIONAL",
+          "ID_AI",
+          "ID_CAPITULO",
+          "ID_CLAVE_CARTERA",
+          "ID_CONCEPTO",
+          "ID_ENTIDAD_FEDERATIVA",
+          "ID_FF",
+          "ID_FUNCION",
+          "ID_MODALIDAD",
+          "ID_PARTIDA_ESPECIFICA",
+          "ID_PARTIDA_GENERICA",
+          "ID_PP",
+          "ID_RAMO",
+          "ID_SUBFUNCION",
+          "ID_TIPOGASTO",
+          "ID_UR",
+          "MONTO_ADEFAS",
+          "MONTO_APROBADO",
+          "MONTO_DEVENGADO",
+          "MONTO_EJERCICIO",
+          "MONTO_EJERCIDO",
+          "MONTO_MODIFICADO",
+          "MONTO_PAGADO"
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter permanente",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Sueldos base",
+          "Sueldos base al personal permanente",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1100",
+          "",
+          "1",
+          "0",
+          "R",
+          "11301",
+          "113",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "162669794.00",
+          "",
+          "",
+          "168668431.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter transitorio",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Honorarios",
+          "Honorarios asimilables a salarios",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1200",
+          "",
+          "1",
+          "0",
+          "R",
+          "12101",
+          "121",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "26697002.00",
+          "",
+          "",
+          "113523530.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Prima quinquenal por años de servicios efectivos prestados",
+          "Primas por años de servicios efectivos prestados",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1300",
+          "",
+          "1",
+          "0",
+          "R",
+          "13101",
+          "131",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "831840.00",
+          "",
+          "",
+          "1385977.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Primas de vacaciones y dominical",
+          "Primas de vacaciones, dominical y gratificación de fin de año",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1300",
+          "",
+          "1",
+          "0",
+          "R",
+          "13201",
+          "132",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "4633854.00",
+          "",
+          "",
+          "4936856.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aguinaldo o gratificación de fin de año",
+          "Primas de vacaciones, dominical y gratificación de fin de año",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1300",
+          "",
+          "1",
+          "0",
+          "R",
+          "13202",
+          "132",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "81916843.00",
+          "",
+          "",
+          "91055283.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al ISSSTE",
+          "Aportaciones de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14101",
+          "141",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "16702411.00",
+          "",
+          "",
+          "17058910.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al seguro de cesantía en edad avanzada y vejez",
+          "Aportaciones de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14105",
+          "141",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "8669467.00",
+          "",
+          "",
+          "5420590.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al FOVISSSTE",
+          "Aportaciones a fondos de vivienda",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14201",
+          "142",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "8315700.00",
+          "",
+          "",
+          "8536455.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al Sistema de Ahorro para el Retiro",
+          "Aportaciones al sistema para el retiro",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14301",
+          "143",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "3209562.00",
+          "",
+          "",
+          "3414651.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Depósitos para el ahorro solidario",
+          "Aportaciones al sistema para el retiro",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14302",
+          "143",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "1707960.00",
+          "",
+          "",
+          "2293217.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Cuotas para el seguro de vida del personal civil",
+          "Aportaciones para seguros",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14401",
+          "144",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "9049512.00",
+          "",
+          "",
+          "8726532.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Cuotas para el seguro de gastos médicos del personal civil",
+          "Aportaciones para seguros",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14403",
+          "144",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "13598317.00",
+          "",
+          "",
+          "13531400.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Cuotas para el seguro de separación individualizado",
+          "Aportaciones para seguros",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14404",
+          "144",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "60656072.00",
+          "",
+          "",
+          "53735084.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Seguro de responsabilidad civil, asistencia legal y otros seguros",
+          "Aportaciones para seguros",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1400",
+          "",
+          "1",
+          "0",
+          "R",
+          "14406",
+          "144",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "534240.00",
+          "",
+          "",
+          "295223.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Otras prestaciones sociales y económicas",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Prestaciones de retiro",
+          "Prestaciones y haberes de retiro",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1500",
+          "",
+          "1",
+          "0",
+          "R",
+          "15301",
+          "153",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "2200000.00",
+          "",
+          "",
+          "1488536.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Otras prestaciones sociales y económicas",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Prestaciones establecidas por condiciones generales de trabajo o contratos colectivos de trabajo",
+          "Prestaciones contractuales",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1500",
+          "",
+          "1",
+          "0",
+          "R",
+          "15401",
+          "154",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "21941653.00",
+          "",
+          "",
+          "18127707.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Otras prestaciones sociales y económicas",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Compensación garantizada",
+          "Prestaciones contractuales",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1500",
+          "",
+          "1",
+          "0",
+          "R",
+          "15402",
+          "154",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "471544113.00",
+          "",
+          "",
+          "451461970.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Otras prestaciones sociales y económicas",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Asignaciones adicionales al sueldo",
+          "Prestaciones contractuales",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1500",
+          "",
+          "1",
+          "0",
+          "R",
+          "15403",
+          "154",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "11330034.00",
+          "",
+          "",
+          "13522819.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Otras prestaciones sociales y económicas",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Otras prestaciones",
+          "Otras prestaciones sociales y económicas",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1500",
+          "",
+          "1",
+          "0",
+          "R",
+          "15901",
+          "159",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "83589538.00",
+          "",
+          "",
+          "80280036.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Incrementos a las percepciones",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16101",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "10685724.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Otras medidas de carácter laboral y económico",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16103",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "3323850.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Previsiones para aportaciones al ISSSTE",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16104",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "785738.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Previsiones para aportaciones al FOVISSSTE",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16105",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "211073.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Previsiones para aportaciones al Sistema de Ahorro para el Retiro",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16106",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "42215.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Previsiones para aportaciones al seguro de cesantía en edad avanzada y vejez",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16107",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "407852.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Previsiones",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Previsiones para los depósitos al ahorro solidario",
+          "Previsiones de carácter laboral, económica y de seguridad social",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1600",
+          "",
+          "1",
+          "0",
+          "R",
+          "16108",
+          "161",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "137197.00",
+          "",
+          "",
+          "0.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Pago de estímulos a servidores públicos",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Estímulos por productividad y eficiencia",
+          "Estímulos",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1700",
+          "",
+          "1",
+          "0",
+          "R",
+          "17101",
+          "171",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "79268985.00",
+          "",
+          "",
+          "77008050.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Servicios personales",
+          "Pago de estímulos a servidores públicos",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Estímulos al personal operativo",
+          "Estímulos",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "1000",
+          "",
+          "1700",
+          "",
+          "1",
+          "0",
+          "R",
+          "17102",
+          "171",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "58626280.00",
+          "",
+          "",
+          "42132185.00",
+          "",
+          ""
+        ],
+        [
+          "2011",
+          "Fiscalización de la Cuenta de la Hacienda Pública Federal",
+          "Materiales y suministros",
+          "Materiales de administración, emisión de documentos y artículos oficiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Materiales y útiles de oficina",
+          "Materiales, útiles y equipos menores de oficina",
+          "Entregar a la Cámara de Diputados del Honorable Congreso de la Unión, el informe sobre la revisión de la Cuenta de la Hacienda Pública Federal",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "Auditoría Superior de la Federación",
+          "",
+          "1",
+          "3",
+          "2000",
+          "",
+          "2100",
+          "",
+          "1",
+          "0",
+          "R",
+          "21101",
+          "211",
+          "2",
+          "1",
+          "1",
+          "1",
+          "101",
+          "",
+          "3595428.00",
+          "",
+          "",
+          "5041300.00",
+          "",
+          ""
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "CICLO"
+            ],
+            "attributes": {
+              "CICLO": {
+                "source": "CICLO",
+                "title": "CICLO"
+              }
+            }
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "GPO_FUNCIONAL",
+              "ID_FUNCION",
+              "ID_SUBFUNCION",
+              "ID_AI"
+            ],
+            "attributes": {
+              "DESC_AI": {
+                "source": "DESC_AI",
+                "title": "DESC_AI",
+                "labelfor": "ID_AI"
+              },
+              "DESC_FUNCION": {
+                "source": "DESC_FUNCION",
+                "title": "DESC_FUNCION",
+                "labelfor": "ID_FUNCION"
+              },
+              "DESC_GPO_FUNCIONAL": {
+                "source": "DESC_GPO_FUNCIONAL",
+                "title": "DESC_GPO_FUNCIONAL",
+                "labelfor": "GPO_FUNCIONAL"
+              },
+              "DESC_SUBFUNCION": {
+                "source": "DESC_SUBFUNCION",
+                "title": "DESC_SUBFUNCION",
+                "labelfor": "ID_SUBFUNCION"
+              },
+              "GPO_FUNCIONAL": {
+                "source": "GPO_FUNCIONAL",
+                "title": "GPO_FUNCIONAL"
+              },
+              "ID_AI": {
+                "source": "ID_AI",
+                "title": "ID_AI",
+                "parent": "ID_SUBFUNCION"
+              },
+              "ID_FUNCION": {
+                "source": "ID_FUNCION",
+                "title": "ID_FUNCION",
+                "parent": "GPO_FUNCIONAL"
+              },
+              "ID_SUBFUNCION": {
+                "source": "ID_SUBFUNCION",
+                "title": "ID_SUBFUNCION",
+                "parent": "ID_FUNCION"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ID_CAPITULO",
+              "ID_CONCEPTO",
+              "ID_PARTIDA_GENERICA",
+              "ID_PARTIDA_ESPECIFICA"
+            ],
+            "attributes": {
+              "DESC_CAPITULO": {
+                "source": "DESC_CAPITULO",
+                "title": "DESC_CAPITULO",
+                "labelfor": "ID_CAPITULO"
+              },
+              "DESC_CONCEPTO": {
+                "source": "DESC_CONCEPTO",
+                "title": "DESC_CONCEPTO",
+                "labelfor": "ID_CONCEPTO"
+              },
+              "DESC_PARTIDA_ESPECIFICA": {
+                "source": "DESC_PARTIDA_ESPECIFICA",
+                "title": "DESC_PARTIDA_ESPECIFICA",
+                "labelfor": "ID_PARTIDA_ESPECIFICA"
+              },
+              "DESC_PARTIDA_GENERICA": {
+                "source": "DESC_PARTIDA_GENERICA",
+                "title": "DESC_PARTIDA_GENERICA",
+                "labelfor": "ID_PARTIDA_GENERICA"
+              },
+              "ID_CAPITULO": {
+                "source": "ID_CAPITULO",
+                "title": "ID_CAPITULO"
+              },
+              "ID_CONCEPTO": {
+                "source": "ID_CONCEPTO",
+                "title": "ID_CONCEPTO",
+                "parent": "ID_CAPITULO"
+              },
+              "ID_PARTIDA_ESPECIFICA": {
+                "source": "ID_PARTIDA_ESPECIFICA",
+                "title": "ID_PARTIDA_ESPECIFICA",
+                "parent": "ID_PARTIDA_GENERICA"
+              },
+              "ID_PARTIDA_GENERICA": {
+                "source": "ID_PARTIDA_GENERICA",
+                "title": "ID_PARTIDA_GENERICA",
+                "parent": "ID_CONCEPTO"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ID_FF"
+            ],
+            "attributes": {
+              "DESC_FF": {
+                "source": "DESC_FF",
+                "title": "DESC_FF",
+                "labelfor": "ID_FF"
+              },
+              "ID_FF": {
+                "source": "ID_FF",
+                "title": "ID_FF"
+              }
+            }
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "ID_MODALIDAD",
+              "ID_PP"
+            ],
+            "attributes": {
+              "DESC_MODALIDAD": {
+                "source": "DESC_MODALIDAD",
+                "title": "DESC_MODALIDAD",
+                "labelfor": "ID_MODALIDAD"
+              },
+              "DESC_PP": {
+                "source": "DESC_PP",
+                "title": "DESC_PP"
+              },
+              "ID_MODALIDAD": {
+                "source": "ID_MODALIDAD",
+                "title": "ID_MODALIDAD"
+              },
+              "ID_PP": {
+                "source": "ID_PP",
+                "title": "ID_PP"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ID_RAMO",
+              "ID_UR"
+            ],
+            "attributes": {
+              "DESC_RAMO": {
+                "source": "DESC_RAMO",
+                "title": "DESC_RAMO",
+                "labelfor": "ID_RAMO"
+              },
+              "DESC_UR": {
+                "source": "DESC_UR",
+                "title": "DESC_UR",
+                "labelfor": "ID_UR"
+              },
+              "ID_RAMO": {
+                "source": "ID_RAMO",
+                "title": "ID_RAMO"
+              },
+              "ID_UR": {
+                "source": "ID_UR",
+                "title": "ID_UR",
+                "parent": "ID_RAMO"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "expenditure-type": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ID_TIPOGASTO"
+            ],
+            "attributes": {
+              "DESC_TIPOGASTO": {
+                "source": "DESC_TIPOGASTO",
+                "title": "DESC_TIPOGASTO",
+                "labelfor": "ID_TIPOGASTO"
+              },
+              "ID_TIPOGASTO": {
+                "source": "ID_TIPOGASTO",
+                "title": "ID_TIPOGASTO"
+              }
+            }
+          },
+          "geo-source": {
+            "dimensionType": "location",
+            "primaryKey": [
+              "ID_ENTIDAD_FEDERATIVA"
+            ],
+            "attributes": {
+              "ENTIDAD_FEDERATIVA": {
+                "source": "ENTIDAD_FEDERATIVA",
+                "title": "ENTIDAD_FEDERATIVA",
+                "labelfor": "ID_ENTIDAD_FEDERATIVA"
+              },
+              "ID_ENTIDAD_FEDERATIVA": {
+                "source": "ID_ENTIDAD_FEDERATIVA",
+                "title": "ID_ENTIDAD_FEDERATIVA"
+              }
+            }
+          },
+          "budget-line-id": {
+            "dimensionType": "fact",
+            "primaryKey": [
+              "ID_CLAVE_CARTERA"
+            ],
+            "attributes": {
+              "ID_CLAVE_CARTERA": {
+                "source": "ID_CLAVE_CARTERA",
+                "title": "ID_CLAVE_CARTERA"
+              }
+            }
+          }
+        },
+        "measures": {
+          "MONTO_ADEFAS": {
+            "source": "MONTO_ADEFAS",
+            "title": "MONTO_ADEFAS"
+          },
+          "MONTO_APROBADO": {
+            "source": "MONTO_APROBADO",
+            "title": "MONTO_APROBADO"
+          },
+          "MONTO_DEVENGADO": {
+            "source": "MONTO_DEVENGADO",
+            "title": "MONTO_DEVENGADO"
+          },
+          "MONTO_EJERCICIO": {
+            "source": "MONTO_EJERCICIO",
+            "title": "MONTO_EJERCICIO"
+          },
+          "MONTO_EJERCIDO": {
+            "source": "MONTO_EJERCIDO",
+            "title": "MONTO_EJERCIDO"
+          },
+          "MONTO_MODIFICADO": {
+            "source": "MONTO_MODIFICADO",
+            "title": "MONTO_MODIFICADO"
+          },
+          "MONTO_PAGADO": {
+            "source": "MONTO_PAGADO",
+            "title": "MONTO_PAGADO"
+          }
+        }
+      }
     }
   ],
   "description": "Spending information of the Federal Government of Mexico, including transferences to sub-national governments.",
