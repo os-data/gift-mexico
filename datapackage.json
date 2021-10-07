@@ -16355,6 +16355,2342 @@
           }
         }
       }
+    },
+    {
+      "bytes": 213731798,
+      "hash": "b432ca1fb00533e952f3e26a51436f7df91a1162e86adb8cea86a785f95b6ced",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "CICLO",
+            "name": "CICLO",
+            "slug": "CICLO",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "DESC_AI",
+            "name": "DESC_AI",
+            "slug": "DESC_AI",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level4:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_CAPITULO",
+            "name": "DESC_CAPITULO",
+            "slug": "DESC_CAPITULO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_CONCEPTO",
+            "name": "DESC_CONCEPTO",
+            "slug": "DESC_CONCEPTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_FF",
+            "name": "DESC_FF",
+            "slug": "DESC_FF",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "DESC_FUNCION",
+            "name": "DESC_FUNCION",
+            "slug": "DESC_FUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_GPO_FUNCIONAL",
+            "name": "DESC_GPO_FUNCIONAL",
+            "slug": "DESC_GPO_FUNCIONAL",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_MODALIDAD",
+            "name": "DESC_MODALIDAD",
+            "slug": "DESC_MODALIDAD",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "DESC_PARTIDA_ESPECIFICA",
+            "name": "DESC_PARTIDA_ESPECIFICA",
+            "slug": "DESC_PARTIDA_ESPECIFICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_PARTIDA_GENERICA",
+            "name": "DESC_PARTIDA_GENERICA",
+            "slug": "DESC_PARTIDA_GENERICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_PP",
+            "name": "DESC_PP",
+            "slug": "DESC_PP",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:project:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "DESC_RAMO",
+            "name": "DESC_RAMO",
+            "slug": "DESC_RAMO",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_SUBFUNCION",
+            "name": "DESC_SUBFUNCION",
+            "slug": "DESC_SUBFUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level3:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "DESC_TIPOGASTO",
+            "name": "DESC_TIPOGASTO",
+            "slug": "DESC_TIPOGASTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:label",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "DESC_UR",
+            "name": "DESC_UR",
+            "slug": "DESC_UR",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "ENTIDAD_FEDERATIVA",
+            "name": "ENTIDAD_FEDERATIVA",
+            "slug": "ENTIDAD_FEDERATIVA",
+            "type": "string",
+            "format": "default",
+            "columnType": "geo-source:target:title",
+            "conceptType": "geo-source",
+            "options": []
+          },
+          {
+            "title": "GPO_FUNCIONAL",
+            "name": "GPO_FUNCIONAL",
+            "slug": "GPO_FUNCIONAL",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_AI",
+            "name": "ID_AI",
+            "slug": "ID_AI",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level4:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_CAPITULO",
+            "name": "ID_CAPITULO",
+            "slug": "ID_CAPITULO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_CLAVE_CARTERA",
+            "name": "ID_CLAVE_CARTERA",
+            "slug": "ID_CLAVE_CARTERA",
+            "type": "string",
+            "format": "default",
+            "columnType": "budget-line-id",
+            "conceptType": "budget-line-id",
+            "options": []
+          },
+          {
+            "title": "ID_CONCEPTO",
+            "name": "ID_CONCEPTO",
+            "slug": "ID_CONCEPTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_ENTIDAD_FEDERATIVA",
+            "name": "ID_ENTIDAD_FEDERATIVA",
+            "slug": "ID_ENTIDAD_FEDERATIVA",
+            "type": "string",
+            "format": "default",
+            "columnType": "geo-source:target:code",
+            "conceptType": "geo-source",
+            "options": []
+          },
+          {
+            "title": "ID_FF",
+            "name": "ID_FF",
+            "slug": "ID_FF",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "ID_FUNCION",
+            "name": "ID_FUNCION",
+            "slug": "ID_FUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_MODALIDAD",
+            "name": "ID_MODALIDAD",
+            "slug": "ID_MODALIDAD",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "ID_PARTIDA_ESPECIFICA",
+            "name": "ID_PARTIDA_ESPECIFICA",
+            "slug": "ID_PARTIDA_ESPECIFICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_PARTIDA_GENERICA",
+            "name": "ID_PARTIDA_GENERICA",
+            "slug": "ID_PARTIDA_GENERICA",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ID_PP",
+            "name": "ID_PP",
+            "slug": "ID_PP",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "ID_RAMO",
+            "name": "ID_RAMO",
+            "slug": "ID_RAMO",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "ID_SUBFUNCION",
+            "name": "ID_SUBFUNCION",
+            "slug": "ID_SUBFUNCION",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level3:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ID_TIPOGASTO",
+            "name": "ID_TIPOGASTO",
+            "slug": "ID_TIPOGASTO",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:code",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "ID_UR",
+            "name": "ID_UR",
+            "slug": "ID_UR",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "MONTO_ADEFAS",
+            "name": "MONTO_ADEFAS",
+            "slug": "MONTO_ADEFAS",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_APROBADO",
+            "name": "MONTO_APROBADO",
+            "slug": "MONTO_APROBADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_DEVENGADO",
+            "name": "MONTO_DEVENGADO",
+            "slug": "MONTO_DEVENGADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_EJERCICIO",
+            "name": "MONTO_EJERCICIO",
+            "slug": "MONTO_EJERCICIO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_EJERCIDO",
+            "name": "MONTO_EJERCIDO",
+            "slug": "MONTO_EJERCIDO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_MODIFICADO",
+            "name": "MONTO_MODIFICADO",
+            "slug": "MONTO_MODIFICADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_PAGADO",
+            "name": "MONTO_PAGADO",
+            "slug": "MONTO_PAGADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "presupuesto_mexico__2015.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/presupuesto_mexico__2015.csv",
+      "hashcopy": "fe7efd9cfbc9137f100a1af8b17a68c6e9a159dbfec7d3fe842e0cd127a75672",
+      "sample": [
+        [
+          "CICLO",
+          "DESC_AI",
+          "DESC_CAPITULO",
+          "DESC_CONCEPTO",
+          "DESC_FF",
+          "DESC_FUNCION",
+          "DESC_GPO_FUNCIONAL",
+          "DESC_MODALIDAD",
+          "DESC_PARTIDA_ESPECIFICA",
+          "DESC_PARTIDA_GENERICA",
+          "DESC_PP",
+          "DESC_RAMO",
+          "DESC_SUBFUNCION",
+          "DESC_TIPOGASTO",
+          "DESC_UR",
+          "ENTIDAD_FEDERATIVA",
+          "GPO_FUNCIONAL",
+          "ID_AI",
+          "ID_CAPITULO",
+          "ID_CLAVE_CARTERA",
+          "ID_CONCEPTO",
+          "ID_ENTIDAD_FEDERATIVA",
+          "ID_FF",
+          "ID_FUNCION",
+          "ID_MODALIDAD",
+          "ID_PARTIDA_ESPECIFICA",
+          "ID_PARTIDA_GENERICA",
+          "ID_PP",
+          "ID_RAMO",
+          "ID_SUBFUNCION",
+          "ID_TIPOGASTO",
+          "ID_UR",
+          "MONTO_ADEFAS",
+          "MONTO_APROBADO",
+          "MONTO_DEVENGADO",
+          "MONTO_EJERCICIO",
+          "MONTO_EJERCIDO",
+          "MONTO_MODIFICADO",
+          "MONTO_PAGADO"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter permanente",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "(Derogada)",
+          "Dietas",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1100",
+          "9",
+          "1",
+          "1",
+          "R",
+          "11101",
+          "111",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "632268000.00",
+          "620254896.28",
+          "620254896.28",
+          "",
+          "620254896.28",
+          "620254896.28"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter permanente",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "(Derogada)",
+          "Dietas",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1100",
+          "9",
+          "1",
+          "1",
+          "R",
+          "11101",
+          "111",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "263337677.00",
+          "261154625.69",
+          "261154625.69",
+          "",
+          "261154625.69",
+          "261154625.69"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter permanente",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Sueldos base",
+          "Sueldos base al personal permanente",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1100",
+          "9",
+          "1",
+          "1",
+          "R",
+          "11301",
+          "113",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "356286670.00",
+          "337480947.93",
+          "337480947.93",
+          "",
+          "337480947.93",
+          "337480947.93"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter permanente",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Sueldos base",
+          "Sueldos base al personal permanente",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1100",
+          "9",
+          "1",
+          "1",
+          "R",
+          "11301",
+          "113",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "148844816.00",
+          "148335148.10",
+          "148335148.10",
+          "",
+          "148335148.10",
+          "148335148.10"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter transitorio",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Honorarios",
+          "Honorarios asimilables a salarios",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1200",
+          "9",
+          "1",
+          "1",
+          "R",
+          "12101",
+          "121",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "878543868.00",
+          "997620796.28",
+          "997620796.28",
+          "",
+          "997620796.28",
+          "997620796.28"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter transitorio",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Honorarios",
+          "Honorarios asimilables a salarios",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1200",
+          "9",
+          "1",
+          "1",
+          "R",
+          "12101",
+          "121",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "733814845.00",
+          "782734890.47",
+          "782734890.47",
+          "",
+          "782734890.47",
+          "781872837.15"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones al personal de carácter transitorio",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Remuneraciones al personal eventual",
+          "Sueldos base al personal eventual",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1200",
+          "9",
+          "1",
+          "1",
+          "R",
+          "12201",
+          "122",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "23034773.00",
+          "21831803.91",
+          "21831803.91",
+          "",
+          "21831803.91",
+          "21831803.91"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Prima quinquenal por años de servicios efectivos prestados",
+          "Primas por años de servicios efectivos prestados",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13101",
+          "131",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "4133046.00",
+          "3940244.17",
+          "3940244.17",
+          "",
+          "3940244.17",
+          "3940244.17"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Prima quinquenal por años de servicios efectivos prestados",
+          "Primas por años de servicios efectivos prestados",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13101",
+          "131",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "1427100.00",
+          "1495917.50",
+          "1495917.50",
+          "",
+          "1495917.50",
+          "1495917.50"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Primas de vacaciones y dominical",
+          "Primas de vacaciones, dominical y gratificación de fin de año",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13201",
+          "132",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "6201867.00",
+          "5773496.67",
+          "5773496.67",
+          "",
+          "5773496.67",
+          "5773496.67"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aguinaldo o gratificación de fin de año",
+          "Primas de vacaciones, dominical y gratificación de fin de año",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13202",
+          "132",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "285378048.00",
+          "283331017.42",
+          "283331017.42",
+          "",
+          "283331017.42",
+          "283331017.42"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aguinaldo o gratificación de fin de año",
+          "Primas de vacaciones, dominical y gratificación de fin de año",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13202",
+          "132",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "125352666.00",
+          "128680249.93",
+          "128680249.93",
+          "",
+          "128680249.93",
+          "126679273.74"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Primas de vacaciones y dominical de áreas administrativas",
+          "Primas de vacaciones, dominical y gratificación de fin de año",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13204",
+          "132",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "42182549.00",
+          "41963996.58",
+          "41963996.58",
+          "",
+          "41963996.58",
+          "41963996.58"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Remuneraciones por horas extraordinarias",
+          "Horas extraordinarias",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13301",
+          "133",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "6600000.00",
+          "6114688.84",
+          "6114688.84",
+          "",
+          "6114688.84",
+          "6114688.84"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Acreditación por titulación en la docencia",
+          "Compensaciones",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13401",
+          "134",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "19965474.00",
+          "70555354.03",
+          "70555354.03",
+          "",
+          "70555354.03",
+          "70555354.03"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Acreditación al personal docente por años de estudio de licenciatura",
+          "Compensaciones",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13402",
+          "134",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "164056010.00",
+          "143266007.37",
+          "143266007.37",
+          "",
+          "143266007.37",
+          "143266007.37"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Compensaciones por servicios especiales",
+          "Compensaciones",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13403",
+          "134",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "418963103.00",
+          "455128598.62",
+          "455128598.62",
+          "",
+          "455128598.62",
+          "455128598.62"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Compensaciones por servicios especiales",
+          "Compensaciones",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13403",
+          "134",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "11200000.00",
+          "19161520.83",
+          "19161520.83",
+          "",
+          "19161520.83",
+          "19161520.83"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Remuneraciones adicionales y especiales",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Compensaciones por servicios eventuales",
+          "Compensaciones",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1300",
+          "9",
+          "1",
+          "1",
+          "R",
+          "13404",
+          "134",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "800000.00",
+          "1892069.26",
+          "1892069.26",
+          "",
+          "1892069.26",
+          "1892069.26"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al ISSSTE",
+          "Aportaciones de seguridad social",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14101",
+          "141",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "63569386.00",
+          "77178660.58",
+          "77178660.58",
+          "",
+          "77178660.58",
+          "77178660.58"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al ISSSTE",
+          "Aportaciones de seguridad social",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14101",
+          "141",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "18631405.00",
+          "18885188.39",
+          "18885188.39",
+          "",
+          "18885188.39",
+          "18223614.01"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al seguro de cesantía en edad avanzada y vejez",
+          "Aportaciones de seguridad social",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14105",
+          "141",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "24277850.00",
+          "24922241.66",
+          "24922241.66",
+          "",
+          "24922241.66",
+          "24922241.66"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al seguro de cesantía en edad avanzada y vejez",
+          "Aportaciones de seguridad social",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14105",
+          "141",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "5933271.00",
+          "5987841.47",
+          "5987841.47",
+          "",
+          "5987841.47",
+          "4975625.48"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al FOVISSSTE",
+          "Aportaciones a fondos de vivienda",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14201",
+          "142",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "42470103.00",
+          "39165222.78",
+          "39165222.78",
+          "",
+          "39165222.78",
+          "39165222.78"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al FOVISSSTE",
+          "Aportaciones a fondos de vivienda",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14201",
+          "142",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "9343734.00",
+          "9429668.10",
+          "9429668.10",
+          "",
+          "9429668.10",
+          "7835628.57"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al Sistema de Ahorro para el Retiro",
+          "Aportaciones al sistema para el retiro",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14301",
+          "143",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "17041061.00",
+          "15709792.30",
+          "15709792.30",
+          "",
+          "15709792.30",
+          "15709792.30"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Aportaciones al Sistema de Ahorro para el Retiro",
+          "Aportaciones al sistema para el retiro",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14301",
+          "143",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "3737494.00",
+          "3771864.34",
+          "3771864.34",
+          "",
+          "3771864.34",
+          "3134249.02"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Depósitos para el ahorro solidario",
+          "Aportaciones al sistema para el retiro",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Diputados",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14302",
+          "143",
+          "1",
+          "1",
+          "1",
+          "1",
+          "100",
+          "0.00",
+          "10629720.00",
+          "2985143.46",
+          "2985143.46",
+          "",
+          "2985143.46",
+          "2985143.46"
+        ],
+        [
+          "2015",
+          "Llevar a cabo el proceso Legislativo",
+          "Servicios personales",
+          "Seguridad social",
+          "Recursos fiscales",
+          "Legislación",
+          "Gobierno",
+          "Específicos",
+          "Depósitos para el ahorro solidario",
+          "Aportaciones al sistema para el retiro",
+          "Actividades derivadas del trabajo legislativo",
+          "Poder Legislativo",
+          "Legislación",
+          "Gasto corriente",
+          "H. Cámara de Senadores",
+          "Distrito Federal",
+          "1",
+          "4",
+          "1000",
+          "0",
+          "1400",
+          "9",
+          "1",
+          "1",
+          "R",
+          "14302",
+          "143",
+          "1",
+          "1",
+          "1",
+          "1",
+          "200",
+          "0.00",
+          "11669493.00",
+          "3342204.71",
+          "3342204.71",
+          "",
+          "3342204.71",
+          "2787135.53"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "CICLO"
+            ],
+            "attributes": {
+              "CICLO": {
+                "source": "CICLO",
+                "title": "CICLO"
+              }
+            }
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "GPO_FUNCIONAL",
+              "ID_FUNCION",
+              "ID_SUBFUNCION",
+              "ID_AI"
+            ],
+            "attributes": {
+              "DESC_AI": {
+                "source": "DESC_AI",
+                "title": "DESC_AI",
+                "labelfor": "ID_AI"
+              },
+              "DESC_FUNCION": {
+                "source": "DESC_FUNCION",
+                "title": "DESC_FUNCION",
+                "labelfor": "ID_FUNCION"
+              },
+              "DESC_GPO_FUNCIONAL": {
+                "source": "DESC_GPO_FUNCIONAL",
+                "title": "DESC_GPO_FUNCIONAL",
+                "labelfor": "GPO_FUNCIONAL"
+              },
+              "DESC_SUBFUNCION": {
+                "source": "DESC_SUBFUNCION",
+                "title": "DESC_SUBFUNCION",
+                "labelfor": "ID_SUBFUNCION"
+              },
+              "GPO_FUNCIONAL": {
+                "source": "GPO_FUNCIONAL",
+                "title": "GPO_FUNCIONAL"
+              },
+              "ID_AI": {
+                "source": "ID_AI",
+                "title": "ID_AI",
+                "parent": "ID_SUBFUNCION"
+              },
+              "ID_FUNCION": {
+                "source": "ID_FUNCION",
+                "title": "ID_FUNCION",
+                "parent": "GPO_FUNCIONAL"
+              },
+              "ID_SUBFUNCION": {
+                "source": "ID_SUBFUNCION",
+                "title": "ID_SUBFUNCION",
+                "parent": "ID_FUNCION"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ID_CAPITULO",
+              "ID_CONCEPTO",
+              "ID_PARTIDA_GENERICA",
+              "ID_PARTIDA_ESPECIFICA"
+            ],
+            "attributes": {
+              "DESC_CAPITULO": {
+                "source": "DESC_CAPITULO",
+                "title": "DESC_CAPITULO",
+                "labelfor": "ID_CAPITULO"
+              },
+              "DESC_CONCEPTO": {
+                "source": "DESC_CONCEPTO",
+                "title": "DESC_CONCEPTO",
+                "labelfor": "ID_CONCEPTO"
+              },
+              "DESC_PARTIDA_ESPECIFICA": {
+                "source": "DESC_PARTIDA_ESPECIFICA",
+                "title": "DESC_PARTIDA_ESPECIFICA",
+                "labelfor": "ID_PARTIDA_ESPECIFICA"
+              },
+              "DESC_PARTIDA_GENERICA": {
+                "source": "DESC_PARTIDA_GENERICA",
+                "title": "DESC_PARTIDA_GENERICA",
+                "labelfor": "ID_PARTIDA_GENERICA"
+              },
+              "ID_CAPITULO": {
+                "source": "ID_CAPITULO",
+                "title": "ID_CAPITULO"
+              },
+              "ID_CONCEPTO": {
+                "source": "ID_CONCEPTO",
+                "title": "ID_CONCEPTO",
+                "parent": "ID_CAPITULO"
+              },
+              "ID_PARTIDA_ESPECIFICA": {
+                "source": "ID_PARTIDA_ESPECIFICA",
+                "title": "ID_PARTIDA_ESPECIFICA",
+                "parent": "ID_PARTIDA_GENERICA"
+              },
+              "ID_PARTIDA_GENERICA": {
+                "source": "ID_PARTIDA_GENERICA",
+                "title": "ID_PARTIDA_GENERICA",
+                "parent": "ID_CONCEPTO"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ID_FF"
+            ],
+            "attributes": {
+              "DESC_FF": {
+                "source": "DESC_FF",
+                "title": "DESC_FF",
+                "labelfor": "ID_FF"
+              },
+              "ID_FF": {
+                "source": "ID_FF",
+                "title": "ID_FF"
+              }
+            }
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "ID_MODALIDAD",
+              "ID_PP"
+            ],
+            "attributes": {
+              "DESC_MODALIDAD": {
+                "source": "DESC_MODALIDAD",
+                "title": "DESC_MODALIDAD",
+                "labelfor": "ID_MODALIDAD"
+              },
+              "DESC_PP": {
+                "source": "DESC_PP",
+                "title": "DESC_PP"
+              },
+              "ID_MODALIDAD": {
+                "source": "ID_MODALIDAD",
+                "title": "ID_MODALIDAD"
+              },
+              "ID_PP": {
+                "source": "ID_PP",
+                "title": "ID_PP"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ID_RAMO",
+              "ID_UR"
+            ],
+            "attributes": {
+              "DESC_RAMO": {
+                "source": "DESC_RAMO",
+                "title": "DESC_RAMO",
+                "labelfor": "ID_RAMO"
+              },
+              "DESC_UR": {
+                "source": "DESC_UR",
+                "title": "DESC_UR",
+                "labelfor": "ID_UR"
+              },
+              "ID_RAMO": {
+                "source": "ID_RAMO",
+                "title": "ID_RAMO"
+              },
+              "ID_UR": {
+                "source": "ID_UR",
+                "title": "ID_UR",
+                "parent": "ID_RAMO"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "expenditure-type": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ID_TIPOGASTO"
+            ],
+            "attributes": {
+              "DESC_TIPOGASTO": {
+                "source": "DESC_TIPOGASTO",
+                "title": "DESC_TIPOGASTO",
+                "labelfor": "ID_TIPOGASTO"
+              },
+              "ID_TIPOGASTO": {
+                "source": "ID_TIPOGASTO",
+                "title": "ID_TIPOGASTO"
+              }
+            }
+          },
+          "geo-source": {
+            "dimensionType": "location",
+            "primaryKey": [
+              "ID_ENTIDAD_FEDERATIVA"
+            ],
+            "attributes": {
+              "ENTIDAD_FEDERATIVA": {
+                "source": "ENTIDAD_FEDERATIVA",
+                "title": "ENTIDAD_FEDERATIVA",
+                "labelfor": "ID_ENTIDAD_FEDERATIVA"
+              },
+              "ID_ENTIDAD_FEDERATIVA": {
+                "source": "ID_ENTIDAD_FEDERATIVA",
+                "title": "ID_ENTIDAD_FEDERATIVA"
+              }
+            }
+          },
+          "budget-line-id": {
+            "dimensionType": "fact",
+            "primaryKey": [
+              "ID_CLAVE_CARTERA"
+            ],
+            "attributes": {
+              "ID_CLAVE_CARTERA": {
+                "source": "ID_CLAVE_CARTERA",
+                "title": "ID_CLAVE_CARTERA"
+              }
+            }
+          }
+        },
+        "measures": {
+          "MONTO_ADEFAS": {
+            "source": "MONTO_ADEFAS",
+            "title": "MONTO_ADEFAS"
+          },
+          "MONTO_APROBADO": {
+            "source": "MONTO_APROBADO",
+            "title": "MONTO_APROBADO"
+          },
+          "MONTO_DEVENGADO": {
+            "source": "MONTO_DEVENGADO",
+            "title": "MONTO_DEVENGADO"
+          },
+          "MONTO_EJERCICIO": {
+            "source": "MONTO_EJERCICIO",
+            "title": "MONTO_EJERCICIO"
+          },
+          "MONTO_EJERCIDO": {
+            "source": "MONTO_EJERCIDO",
+            "title": "MONTO_EJERCIDO"
+          },
+          "MONTO_MODIFICADO": {
+            "source": "MONTO_MODIFICADO",
+            "title": "MONTO_MODIFICADO"
+          },
+          "MONTO_PAGADO": {
+            "source": "MONTO_PAGADO",
+            "title": "MONTO_PAGADO"
+          }
+        }
+      }
     }
   ],
   "description": "Spending information of the Federal Government of Mexico, including transferences to sub-national governments.",
