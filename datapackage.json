@@ -30414,5 +30414,8 @@
   "continent": "North America",
   "country": "Mexico",
   "start_date": "2008-01-01",
-  "end_date": "2021-12-31"
+  "end_date": "2021-12-31",
+  "createdAt": "2021-10-07T19:19:39Z",
+  "updatedAt": "2021-10-07T19:43:22Z",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/SHCP2018-2024.png"
 }
