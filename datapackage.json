@@ -839,7 +839,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2008.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2008.csv",
       "hashcopy": "68090e155c0172a21dd9be0f5db2406a4668cc5711f38c364b79eef2b76658b2",
       "sample": [
         [
@@ -3175,7 +3175,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2009.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2009.csv",
       "hashcopy": "55ddb451087760930f45a12b7413091b42f3022de9ec090be314106251d664f6",
       "sample": [
         [
@@ -5511,7 +5511,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2010.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2010.csv",
       "hashcopy": "6b2fcd7bd8bcbf2354095768f0f5d6815259db189be73d2e26807f641819558d",
       "sample": [
         [
@@ -7847,7 +7847,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2011.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2011.csv",
       "hashcopy": "fafb84d9b623a51a55e0a60b830cb6b2761ad5b947351c1e0affa87d359ab816",
       "sample": [
         [
@@ -10183,7 +10183,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2012.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2012.csv",
       "hashcopy": "c741de8fda6b2300e3c474bab270c9440bc518c9204cf310ef0e1a9678603010",
       "sample": [
         [
@@ -12519,7 +12519,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2013.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2013.csv",
       "hashcopy": "e12b05cd14f76e7326c640c7eed5f78507c14eabe38877351e32a420d9cd7d6c",
       "sample": [
         [
@@ -14855,7 +14855,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2014.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2014.csv",
       "hashcopy": "5fa59ec164d0ff7b4afe0796e68671ee25123751b16ed16f6bf0889cff50291e",
       "sample": [
         [
@@ -17191,7 +17191,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2015.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2015.csv",
       "hashcopy": "fe7efd9cfbc9137f100a1af8b17a68c6e9a159dbfec7d3fe842e0cd127a75672",
       "sample": [
         [
@@ -19527,7 +19527,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2016.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2016.csv",
       "hashcopy": "d1dae32ef8eded10bddf90876dfc08b1f23572247cd6d565dbbcbfb432104ec7",
       "sample": [
         [
@@ -21863,7 +21863,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2017.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2017.csv",
       "hashcopy": "26c06657deeade01c7c793cc86be2243b1b4002112140c67f7f336ad3037b06a",
       "sample": [
         [
@@ -24199,7 +24199,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2018.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2018.csv",
       "hashcopy": "c30d1b36abc31253f5ce4d7c20978255e25f5e352261df78a52bb6a4b3021b47",
       "sample": [
         [
@@ -26535,7 +26535,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2019.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2019.csv",
       "hashcopy": "c9c6c1b3ed826e14b72548ee2e8bde1c4941b7b2c48a67e3e4843869d519b399",
       "sample": [
         [
@@ -28871,7 +28871,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_mexico__2020.csv",
+      "path": "https://storage.openspending.org/mexico/presupuesto_mexico__2020.csv",
       "hashcopy": "0dd889d7f7082848c943d87f9d267701d9464ff9b3a8d2d68a23f4c10d7d6413",
       "sample": [
         [
@@ -30413,8 +30413,11 @@
   "pub_institutional_name": "Secretaría de Hacienda y Crédito Público",
   "continent": "North America",
   "country": "Mexico",
-  "start_date": "2008-01-01",
-  "end_date": "2021-12-31",
+  "countryCode": "MX",
+  "fiscalPeriod": {
+    "start": "2008-01-01",
+    "end": "2021-12-31"
+  },
   "createdAt": "2021-10-07T19:19:39Z",
   "updatedAt": "2021-10-18T08:43:11Z",
   "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/SHCP2018-2024.png"
